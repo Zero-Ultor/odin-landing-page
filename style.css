@@ -23,10 +23,12 @@ display: flex;
 padding: 20px 48px;
 background-color: #1F2937;
 color: white;
+align-items: center;
 }
 
 .header-logo {
 font-size: 24px;
+font-weight: bold;
 }
 
 .header ul {
@@ -38,9 +40,16 @@ gap: 10px;
 display:flex;
 }
 
+.signup img {
+width: 600px;
+}
 .content {
 display:flex;
 
+}
+
+.content img {
+width: 150px;
 }
 
 .boxes {
