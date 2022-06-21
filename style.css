@@ -1,0 +1,32 @@
+/* CSS Stylesheet */
+
+body {font-family: "roboto", sans-serif;}
+
+.header {
+display: flex;
+
+}
+
+.signup {
+display:flex;
+}
+
+.content {
+display:flex;
+
+}
+
+.quotebox {
+display:flex;
+
+}
+
+.call {
+display:flex;
+
+}
+
+.footer {
+display:flex;
+
+}
