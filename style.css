@@ -13,17 +13,27 @@ padding: 0;
 font-size: 18px;
 }
 
+.secondary {
+font-size: 18px;
+color: #E5E7EB;
+}
+
 a {
 text-decoration: none;
 color: white;
 }
 
-.header {
+.header, .signup {
 display: flex;
 padding: 20px 48px;
 background-color: #1F2937;
-color: white;
 align-items: center;
+
+}
+
+.hero-text, .header-logo {
+color: #F9FAF8;
+
 }
 
 .header-logo {
@@ -37,15 +47,42 @@ gap: 10px;
 }
 
 .signup {
-display:flex;
+
 }
 
 .signup img {
 width: 600px;
 }
+
+.hero-text {
+font-size: 48px;
+font-weight: 900; 
+
+}
+
 .content {
 display:flex;
 
+}
+
+.boxes .secondary {
+color: #1f2937;
+}
+
+.content, .quotebox {
+color: #1f2937;
+
+}
+
+button {
+background-color: #3882F6;
+color:#F9FAF8;
+}
+
+.info-header {
+font-size: 36px;
+font-weight: 900;
+color: #1F2937;
 }
 
 .content img {
@@ -59,6 +96,12 @@ display: flex;
 
 .quotebox {
 display:flex;
+background-color: #E5E7EB;
+}
+
+.quotebox .quote {
+font-size: 36px;
+font-style: oblique 7deg;
 
 }
 
@@ -67,7 +110,18 @@ display:flex;
 
 }
 
+.callbox {
+background-color: #3882F6;
+color:#F9FAF8;
+
+}
+
 .footer {
-display:flex;
+display: flex;
+padding: 20px 48px;
+background-color: #1F2937;
+align-items: center;
+font-size: 18px;
+color: #E5E7EB;
 
 }
