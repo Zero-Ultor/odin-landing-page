@@ -25,8 +25,13 @@ color: white;
 
 .header, .signup {
 display: flex;
-padding: 20px 48px;
+padding: 20px 60px;
+padding-bottom: 60px;
 background-color: #1F2937;
+
+}
+
+.header {
 align-items: center;
 
 }
@@ -47,10 +52,25 @@ gap: 10px;
 }
 
 .signup {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex: 1 1 auto;
 
 }
 
-.signup img {
+.right{
+margin-left: auto;
+}
+
+.left{
+display: flex;
+flex-direction: column;
+gap: 10px ;
+margin-right: 30px;
+}
+.right img {
+max-width: 100%;
 width: 600px;
 }
 
@@ -62,7 +82,12 @@ font-weight: 900;
 
 .content {
 display:flex;
-
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 60px;
+gap: 50px;
+padding-bottom: 100px;
 }
 
 .boxes .secondary {
@@ -77,6 +102,10 @@ color: #1f2937;
 button {
 background-color: #3882F6;
 color:#F9FAF8;
+border-radius: 5px;
+font-size: 18px;
+padding: 8px 32px;
+border: none;
 }
 
 .info-header {
@@ -85,35 +114,72 @@ font-weight: 900;
 color: #1F2937;
 }
 
-.content img {
-width: 150px;
+.item  {
+width: 200px;
+}
+
+img {
+max-width: 100%;
+border-radius: 25px;
+}
+
+.item img {
+border: 5px solid #3882F6;
 }
 
 .boxes {
 display: flex;
-
+gap: 40px;
 }
 
 .quotebox {
 display:flex;
 background-color: #E5E7EB;
+padding: 60px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 100px;
 }
 
-.quotebox .quote {
+.quote {
 font-size: 36px;
 font-style: oblique 7deg;
+}
 
+.attribution {
+font-size: 18px;
+font-style: none;
+display:flex;
+justify-content: flex-end;
 }
 
 .call {
 display:flex;
-
+padding: 100px;
+justify-content: center;
+align-items: center;
 }
 
 .callbox {
+display: flex;
 background-color: #3882F6;
 color:#F9FAF8;
+padding: 60px;
+flex: auto;
+border-radius: 10px;
+font-size: 18px;
+}
 
+.callbox .action {
+font-size: 22px;
+font-weight: bold;
+}
+
+.callbox button {
+margin-left: auto;
+border: 2px solid white;
+color: white;
 }
 
 .footer {
@@ -123,5 +189,5 @@ background-color: #1F2937;
 align-items: center;
 font-size: 18px;
 color: #E5E7EB;
-
+justify-content: center;
 }
